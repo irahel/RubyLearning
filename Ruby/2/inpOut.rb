@@ -10,4 +10,7 @@ name = gets.chomp
 print 'type your LAST name> '
 l_name = gets.chomp
 
-puts "Hello #{name} #{l_name} !"
+print 'type your age> '
+age = gets.chomp.to_i
+
+puts "Hello #{name} #{l_name} with #{age} years !"
