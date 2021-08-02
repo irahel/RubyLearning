@@ -26,3 +26,26 @@ array_first = [1, 2, 3, '4']
 puts array_first
 puts array_first.class
 puts array_first[0]
+
+puts '-'*40
+
+symbol_value = :ruby_symbol
+symbol_value2 = :ruby_symbol
+puts symbol_value
+puts symbol_value.class
+puts symbol_value.object_id
+puts symbol_value2.object_id
+
+puts '-'*40
+
+hash_value = {name: 'rahel', s_name: 'oliveira'}
+puts hash_value
+puts hash_value.class
+puts hash_value[:name]
+
+puts '-'*40
+
+dynamic = 1
+puts dynamic.class
+dynamic = 'Hello'
+puts dynamic.class
